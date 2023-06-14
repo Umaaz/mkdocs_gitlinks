@@ -1,0 +1,14 @@
+site_name: Test Gitlinks
+
+theme:
+  name: material
+
+plugins:
+  - mkdocs_gitlinks:
+      show_docs: true
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
