@@ -25,6 +25,7 @@ class GitLinksPlugin(BasePlugin):
         ('show_docs', config_options.Type(bool, default=False)),
         ('target', config_options.Type(str, default="_blank")),
         ('github_host', config_options.Type(str, default="github.com")),
+        ('github_docs_host', config_options.Type(str, default="github.io")),
     )
 
     def create_link(self, config: MkDocsConfig, repo_name):
@@ -66,4 +67,4 @@ class GitLinksPlugin(BasePlugin):
         split = repo_name.split("/")
 
         return """ <a target="%s" title="Open Github Pages" href="https://%s.%s/%s"><span class="gitlink-docs-icon">%s</span></a>""" % (
-            self.config['target'], split[0], split[1], self.config['github_host'], svg_docs())
+            self.config['target'], split[0], self.config['github_docs_host'], split[1], svg_docs())
