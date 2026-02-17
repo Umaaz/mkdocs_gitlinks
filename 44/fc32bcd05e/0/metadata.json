@@ -1,0 +1,31 @@
+{
+  "cli_version": "0.4.5",
+  "checkpoint_id": "44fc32bcd05e",
+  "session_id": "979952f0-8e12-476b-a2a7-bb9445f8ef64",
+  "strategy": "manual-commit",
+  "created_at": "2026-02-17T20:27:41.849033531Z",
+  "branch": "master",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "README.md"
+  ],
+  "agent": "Claude Code",
+  "turn_id": "194a28e484dd",
+  "token_usage": {
+    "input_tokens": 11,
+    "cache_creation_tokens": 34312,
+    "cache_read_tokens": 181215,
+    "output_tokens": 596,
+    "api_call_count": 7
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-02-17T20:27:41.796502245Z",
+    "agent_lines": 43,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 43,
+    "agent_percentage": 100
+  },
+  "transcript_path": ".claude/projects/-home-bdonnell-repo-github-Umaaz-mkdocs-gitlinks/979952f0-8e12-476b-a2a7-bb9445f8ef64.jsonl"
+}
